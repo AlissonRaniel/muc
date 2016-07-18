@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+body
+{
+	font-family:'Open Sans',Arial;
+}
+
+body a
+{
+	text-decoration: none !important;
+	color: black;
+}
+
+.centro
+{
+    text-align: left;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.voltar
+{
+	float: right;
+	margin-top: -40px;
+}
+
+@media screen and (max-width: 440px) { 
+	.voltar
+	{ 
+		display: none;
+	}
+}
+/*---------- Classes de fonts -----------*/
+.titulo_12
+{
+	font-size: 12px;
+}
+.titulo_topo
+{
+	font-size: 40px;
+}
+/*---------- Topo -----------*/
+#topo
+{
+	float: left;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	height: 40px;
+}
+.navbar-inverse
+{
+	background-color: #eee;	
+	border: none;
+}
+
+/*---------- Rodape -----------*/
+#rodape
+{
+	float: left;
+	width: 100%;
+	position: fixed;
+	margin-bottom: 0;
+	height: 60px;
+	background-color: #eee;
+	bottom: 0;
+}
+	#rodape h6
+	{
+		margin-top: -10px;
+	}
+
+#rodape #ico-redes
+{
+	float: left;
+	width: 100%;
+	margin-top: -6px;
+}
+
+/*---------- Centro -----------*/
+#centro
+{
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+.form-add
+{
+	width: 60%;
+	margin: 0 auto;
+}
+.form-horizontal .checkbox
+{
+	float: left;
+	margin-right: 30px;
+}
+.form-horizontal .control-label
+{
+	float: left;
+	margin-right: 30px;
+}
